@@ -7,8 +7,9 @@ tags:
   - thm
   - easy
 ---
-
-<img src="https://tryhackme-images.s3.amazonaws.com/room-icons/328c078f7c5695439a46ba90ae48aaa0.png" alt="Opacity Room Icon" width="200" height="200" />
+<p align="center">
+	<img src="https://tryhackme-images.s3.amazonaws.com/room-icons/328c078f7c5695439a46ba90ae48aaa0.png" alt="Opacity Room Icon" width="200" height="200" />
+</p>
 
 Welcome to my writeups for the TryHackMe room Opacity. That's an easy room that will help you 
 practice your web exploitation and linux exploitations skills.
