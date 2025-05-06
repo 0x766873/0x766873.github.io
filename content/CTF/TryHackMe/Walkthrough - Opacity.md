@@ -1,7 +1,7 @@
 ---
 title: Walkthrough - Opacity [Easy]
-date: 
-categories: 
+date: 2024-07-28
+draft: "true"
 tags:
   - ctf
   - thm

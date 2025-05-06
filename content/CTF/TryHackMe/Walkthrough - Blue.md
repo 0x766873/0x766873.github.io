@@ -1,7 +1,7 @@
 ---
 title: Walkthrough - Blue [Easy]
-date: 
-categories: 
+date: 2024-08-01
+draft: "false"
 tags:
   - ctf
   - thm
@@ -97,7 +97,9 @@ msf6 > run
 
 We have successfully exploited the MS17-010 vulnerability and have a shell on the target machine.
 
-![Meterpreter](Images/20240801_blue_meterpreter.png)
+<p align="center">
+	<img src="Images/20240801_blue_meterpreter.png" />
+</p>
 
 As we exploited the MS17-010 vulnerability we already have a NT AUTHORITY\SYSTEM shell.
 
@@ -122,15 +124,21 @@ $ hashcat -a 0 -m 1000 Jon.hash /usr/share/wordlists/rockyou.txt
 
 Quickly we obtain Jon's password which is `alqfna22`.
 
-### Flags
+## Flags
 
 We can now find the flags on the target machine.
 
-![Flag 1](Images/20240801_blue_flag1.png)
+<p align="center">
+	<img src="Images/20240801_blue_flag1.png" />
+</p>
 
-![Flag 2](Images/20240801_blue_flag2.png)
+<p align="center">
+	<img src="Images/20240801_blue_flag2.png" />
+</p>
 
-![Flag 3](Images/20240801_blue_flag3.png)
+<p align="center">
+	<img src="Images/20240801_blue_flag3.png" />
+</p>
 
 **Flag 1:** `flag{access_the_machine}`
 
