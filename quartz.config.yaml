@@ -5,7 +5,6 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
   locale: en-US
   baseUrl: 0x766873.github.io
   ignorePatterns:
